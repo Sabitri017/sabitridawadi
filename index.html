@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Sabitri Dawadi</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .nav-bar {
+            display: flex;
+            flex-direction: row;
+            padding: 1rem;
+            /* border-radius: 0.625rem; */
+            gap: 0.8rem;
+            background-color: #e84393;
+            background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+            opacity: 0.8;
+            position: relative;
+            flex: 1;
+            font-size: 1.2rem;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .nav-bar li a:hover{
+            color: rgb(207, 43, 71);
+            transition:color 0.2s;
+        }
+
+        .nav-bar>li {
+            padding: 0.2rem 0.45rem;
+            list-style: none;
+        }
+
+        .nav-bar>li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #icon {
+            position: absolute;
+            right: 5rem;
+            font-size: 1.4rem;
+            color: black;
+            padding: 0 0.5rem;
+        }
+
+        #icon1 {
+            position: absolute;
+            right: 2.3rem;
+            font-size: 1.4rem;
+            color: black;
+            padding: 0 0.5rem;
+        }
+
+        #icon2 {
+
+            position: absolute;
+            right: 0.2rem;
+            font-size: 1.4rem;
+            color: black;
+            padding: 0 0.5rem;
+        }
+
+        /* Section starts */
+        section {
+            background: rgb(2, 0, 36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(56, 32, 101, 1) 57%, rgb(124, 36, 108) 100%);
+            height: 100vh;
+            width: 100%;
+            color: white;
+        }
+
+        #who-is-sabitri {
+            padding: 2rem 1.6rem;
+        }
+
+        #who-is-sabitri #text {
+            font-family: 'Staatliches', cursive;
+            letter-spacing: 0.2rem;
+        }
+        #image img{
+            width:200px;
+            height:200px
+        }
+    </style>
+</head>
+<!-- css code gradient: background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 65, 1) 48%, rgba(207, 36, 149, 1) 100%); -->
+
+<body>
+    <nav>
+        <ul class="nav-bar">
+            <li class="item" id="item-1"><a href="#">Home</a></li>
+            <li class="item" id="item-2"><a href="#">Image Gallery</a></li>
+            <li class="item" id="item-3"><a href="#">Work</a></li>
+            <li class="item" id="item-4"><a href="#">Contact</a></li>
+            <li><a href="#" id="icon1"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" id="icon2"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/sabitri.dawadiregmi" target="_blank" id="icon"><i
+                        class="fab fa-facebook"></i></a></li>
+        </ul>
+    </nav>
+    <section>
+        <div id="who-is-sabitri">
+            <h2 id="text">Who is Sabitri??</h2>
+            <div id="image">
+                <img src="aama.jpg" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
